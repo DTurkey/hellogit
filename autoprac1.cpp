@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-using namepsace std;
+using namespace std;
 
 int main()
 {
@@ -14,10 +14,10 @@ int main()
 	v2.pop_back();
 	
 	for (int i=0; i<2; i++)
-		v2.push_back ( 54, 67);
+		v2.push_back (54);
 		
 	for (auto v:v2)
-		std::cout << v << " ";
+		cout << v << " ";
 		
 system("pause");
 }
