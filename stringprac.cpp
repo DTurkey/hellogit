@@ -13,6 +13,4 @@ int main()
 	cout << " s1 = " << s1 << endl;
 	cout << " the 4th charachter of s1 is " << s1[3] << endl;
 	cout << " s1 has " << s1.size() << " characters " << endl;
-
-system("pause");
 }
