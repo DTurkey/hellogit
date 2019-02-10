@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	vector <char> vcomp;
-	vector <int> v2 = { 13, 23, 34, 78, 91 };
+	vector <int> v2 = {13, 23, 34, 78, 91};
 	
 	vcomp.push_back ('s');
 	vcomp.push_back ('i');
@@ -18,6 +18,6 @@ int main()
 		
 	for (auto v:v2)
 		cout << v << " ";
-		
+
 system("pause");
 }
